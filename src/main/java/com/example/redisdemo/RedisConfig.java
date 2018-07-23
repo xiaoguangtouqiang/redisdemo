@@ -13,12 +13,6 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
  
 /**
- * Redis配置.
- *
- * 使用@EnableCaching开启声明式缓存支持. 之后就可以使用 @Cacheable/@CachePut/@CacheEvict 注解缓存数据.
- *
- * @author bojiangzhou 2018-02-11
- * @version 1.0
  */
 @Configuration
 @EnableCaching
